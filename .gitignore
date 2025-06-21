@@ -1,0 +1,26 @@
+# Python-specific generated files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+build/
+dist/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# IDE-specific files (common)
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

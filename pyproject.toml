@@ -1,0 +1,24 @@
+
+[project]
+name = "llm-gh-pr"
+version = "0.1.0"
+description = "LLM plugin to generate GitHub PR titles/bodies and create PRs using the 'gh' CLI."
+readme = "README.md"
+authors = [{name = "shamanic", email = "shamanicbeatbox@gmail.com"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "llm",
+    "click",
+    "prompt-toolkit"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/shamanicarts/llm-gh-pr"
+Issues = "https://github.com/shamanicarts/llm-gh-pr/issues"
+
+[project.entry-points.llm]
+gh-pr = "llm_gh_pr"
