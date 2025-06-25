@@ -1,7 +1,7 @@
 
 [project]
 name = "llm-gh-pr"
-version = "0.1.0"
+version = "0.1.1"
 description = "LLM plugin to generate GitHub PR titles/bodies and create PRs using the 'gh' CLI."
 readme = "README.md"
 authors = [{name = "shamanic", email = "shamanicbeatbox@gmail.com"}]
